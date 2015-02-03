@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5A67D131A07D7AE0063527C /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A67D121A07D7AE0063527C /* RootViewController.m */; };
+		C5A67D151A07D7BB0063527C /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5A67D141A07D7BB0063527C /* RootViewController.xib */; };
+		C5D59EF919FE906A0090B3B0 /* Team_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D59EF819FE906A0090B3B0 /* Team_AppTests.m */; };
+		C5D59F0A19FEA46C0090B3B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D59F0919FEA46C0090B3B0 /* AppDelegate.m */; };
+		C5D59F0C19FEA4A40090B3B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D59F0B19FEA4A40090B3B0 /* main.m */; };
+		C5D59F1B19FEA8530090B3B0 /* StatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D59F1919FEA8530090B3B0 /* StatsViewController.m */; };
+		C5D59F1C19FEA8530090B3B0 /* StatsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5D59F1A19FEA8530090B3B0 /* StatsViewController.xib */; };
+		C5D59F2019FEA8610090B3B0 /* RosterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D59F1E19FEA8610090B3B0 /* RosterViewController.m */; };
+		C5D59F2119FEA8610090B3B0 /* RosterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5D59F1F19FEA8610090B3B0 /* RosterViewController.xib */; };
+		C5D59F2519FEA8700090B3B0 /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D59F2319FEA8700090B3B0 /* ScheduleViewController.m */; };
+		C5D59F2619FEA8700090B3B0 /* ScheduleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5D59F2419FEA8700090B3B0 /* ScheduleViewController.xib */; };
+		C5D59F6119FECC920090B3B0 /* teamapp-roster_off.png in Resources */ = {isa = PBXBuildFile; fileRef = C5D59F4F19FECC920090B3B0 /* teamapp-roster_off.png */; };
+		C5D59F6219FECC920090B3B0 /* teamapp-roster_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5D59F5019FECC920090B3B0 /* teamapp-roster_off@2x.png */; };
+		C5D59F6319FECC920090B3B0 /* teamapp-roster_off@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5D59F5119FECC920090B3B0 /* teamapp-roster_off@3x.png */; };
+		C5D59F6419FECC920090B3B0 /* teamapp-roster_on.png in Resources */ = {isa = PBXBuildFile; fileRef = C5D59F5219FECC920090B3B0 /* teamapp-roster_on.png */; };
+		C5D59F6519FECC920090B3B0 /* teamapp-roster_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5D59F5319FECC920090B3B0 /* teamapp-roster_on@2x.png */; };
+		C5D59F6619FECC920090B3B0 /* teamapp-roster_on@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5D59F5419FECC920090B3B0 /* teamapp-roster_on@3x.png */; };
+		C5D59F6719FECC920090B3B0 /* teamapp-schedule_off.png in Resources */ = {isa = PBXBuildFile; fileRef = C5D59F5519FECC920090B3B0 /* teamapp-schedule_off.png */; };
+		C5D59F6819FECC920090B3B0 /* teamapp-schedule_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5D59F5619FECC920090B3B0 /* teamapp-schedule_off@2x.png */; };
+		C5D59F6919FECC920090B3B0 /* teamapp-schedule_off@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5D59F5719FECC920090B3B0 /* teamapp-schedule_off@3x.png */; };
+		C5D59F6A19FECC920090B3B0 /* teamapp-schedule_on.png in Resources */ = {isa = PBXBuildFile; fileRef = C5D59F5819FECC920090B3B0 /* teamapp-schedule_on.png */; };
+		C5D59F6B19FECC920090B3B0 /* teamapp-schedule_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5D59F5919FECC920090B3B0 /* teamapp-schedule_on@2x.png */; };
+		C5D59F6C19FECC920090B3B0 /* teamapp-schedule_on@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5D59F5A19FECC920090B3B0 /* teamapp-schedule_on@3x.png */; };
+		C5D59F6D19FECC920090B3B0 /* teamapp-stats_off.png in Resources */ = {isa = PBXBuildFile; fileRef = C5D59F5B19FECC920090B3B0 /* teamapp-stats_off.png */; };
+		C5D59F6E19FECC920090B3B0 /* teamapp-stats_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5D59F5C19FECC920090B3B0 /* teamapp-stats_off@2x.png */; };
+		C5D59F6F19FECC920090B3B0 /* teamapp-stats_off@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5D59F5D19FECC920090B3B0 /* teamapp-stats_off@3x.png */; };
+		C5D59F7019FECC920090B3B0 /* teamapp-stats_on.png in Resources */ = {isa = PBXBuildFile; fileRef = C5D59F5E19FECC920090B3B0 /* teamapp-stats_on.png */; };
+		C5D59F7119FECC920090B3B0 /* teamapp-stats_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5D59F5F19FECC920090B3B0 /* teamapp-stats_on@2x.png */; };
+		C5D59F7219FECC920090B3B0 /* teamapp-stats_on@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5D59F6019FECC920090B3B0 /* teamapp-stats_on@3x.png */; };
+		C5D59F7819FED0620090B3B0 /* Museo_Slab_700.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C5D59F7619FED0620090B3B0 /* Museo_Slab_700.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5D59EF319FE906A0090B3B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5D59ED119FE906A0090B3B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5D59ED819FE906A0090B3B0;
+			remoteInfo = "Team App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C5A67D111A07D7AE0063527C /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		C5A67D121A07D7AE0063527C /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		C5A67D141A07D7BB0063527C /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		C5A67D161A07D7CA0063527C /* RootViewController+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RootViewController+Private.h"; sourceTree = "<group>"; };
+		C5D59ED919FE906A0090B3B0 /* Team App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Team App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5D59EDD19FE906A0090B3B0 /* TeamApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TeamApp-Info.plist"; sourceTree = "<group>"; };
+		C5D59EF219FE906A0090B3B0 /* Team AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Team AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5D59EF719FE906A0090B3B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5D59EF819FE906A0090B3B0 /* Team_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Team_AppTests.m; sourceTree = "<group>"; };
+		C5D59F0819FEA46C0090B3B0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C5D59F0919FEA46C0090B3B0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C5D59F0B19FEA4A40090B3B0 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Application/main.m; sourceTree = "<group>"; };
+		C5D59F1319FEA5300090B3B0 /* AppDelegate+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Private.h"; sourceTree = "<group>"; };
+		C5D59F1419FEA65E0090B3B0 /* TeamApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TeamApp-Prefix.pch"; sourceTree = "<group>"; };
+		C5D59F1819FEA8530090B3B0 /* StatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatsViewController.h; sourceTree = "<group>"; };
+		C5D59F1919FEA8530090B3B0 /* StatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatsViewController.m; sourceTree = "<group>"; };
+		C5D59F1A19FEA8530090B3B0 /* StatsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StatsViewController.xib; sourceTree = "<group>"; };
+		C5D59F1D19FEA8610090B3B0 /* RosterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RosterViewController.h; sourceTree = "<group>"; };
+		C5D59F1E19FEA8610090B3B0 /* RosterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RosterViewController.m; sourceTree = "<group>"; };
+		C5D59F1F19FEA8610090B3B0 /* RosterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RosterViewController.xib; sourceTree = "<group>"; };
+		C5D59F2219FEA8700090B3B0 /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleViewController.h; sourceTree = "<group>"; };
+		C5D59F2319FEA8700090B3B0 /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewController.m; sourceTree = "<group>"; };
+		C5D59F2419FEA8700090B3B0 /* ScheduleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScheduleViewController.xib; sourceTree = "<group>"; };
+		C5D59F2819FEBF420090B3B0 /* StatsViewController+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StatsViewController+Private.h"; sourceTree = "<group>"; };
+		C5D59F4F19FECC920090B3B0 /* teamapp-roster_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "teamapp-roster_off.png"; sourceTree = "<group>"; };
+		C5D59F5019FECC920090B3B0 /* teamapp-roster_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "teamapp-roster_off@2x.png"; sourceTree = "<group>"; };
+		C5D59F5119FECC920090B3B0 /* teamapp-roster_off@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "teamapp-roster_off@3x.png"; sourceTree = "<group>"; };
+		C5D59F5219FECC920090B3B0 /* teamapp-roster_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "teamapp-roster_on.png"; sourceTree = "<group>"; };
+		C5D59F5319FECC920090B3B0 /* teamapp-roster_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "teamapp-roster_on@2x.png"; sourceTree = "<group>"; };
+		C5D59F5419FECC920090B3B0 /* teamapp-roster_on@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "teamapp-roster_on@3x.png"; sourceTree = "<group>"; };
+		C5D59F5519FECC920090B3B0 /* teamapp-schedule_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "teamapp-schedule_off.png"; sourceTree = "<group>"; };
+		C5D59F5619FECC920090B3B0 /* teamapp-schedule_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "teamapp-schedule_off@2x.png"; sourceTree = "<group>"; };
+		C5D59F5719FECC920090B3B0 /* teamapp-schedule_off@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "teamapp-schedule_off@3x.png"; sourceTree = "<group>"; };
+		C5D59F5819FECC920090B3B0 /* teamapp-schedule_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "teamapp-schedule_on.png"; sourceTree = "<group>"; };
+		C5D59F5919FECC920090B3B0 /* teamapp-schedule_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "teamapp-schedule_on@2x.png"; sourceTree = "<group>"; };
+		C5D59F5A19FECC920090B3B0 /* teamapp-schedule_on@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "teamapp-schedule_on@3x.png"; sourceTree = "<group>"; };
+		C5D59F5B19FECC920090B3B0 /* teamapp-stats_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "teamapp-stats_off.png"; sourceTree = "<group>"; };
+		C5D59F5C19FECC920090B3B0 /* teamapp-stats_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "teamapp-stats_off@2x.png"; sourceTree = "<group>"; };
+		C5D59F5D19FECC920090B3B0 /* teamapp-stats_off@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "teamapp-stats_off@3x.png"; sourceTree = "<group>"; };
+		C5D59F5E19FECC920090B3B0 /* teamapp-stats_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "teamapp-stats_on.png"; sourceTree = "<group>"; };
+		C5D59F5F19FECC920090B3B0 /* teamapp-stats_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "teamapp-stats_on@2x.png"; sourceTree = "<group>"; };
+		C5D59F6019FECC920090B3B0 /* teamapp-stats_on@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "teamapp-stats_on@3x.png"; sourceTree = "<group>"; };
+		C5D59F7619FED0620090B3B0 /* Museo_Slab_700.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Museo_Slab_700.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5D59ED619FE906A0090B3B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5D59EEF19FE906A0090B3B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5D59ED019FE906A0090B3B0 = {
+			isa = PBXGroup;
+			children = (
+				C5D59EDB19FE906A0090B3B0 /* Team App */,
+				C5D59EF519FE906A0090B3B0 /* Team AppTests */,
+				C5D59EDA19FE906A0090B3B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5D59EDA19FE906A0090B3B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5D59ED919FE906A0090B3B0 /* Team App.app */,
+				C5D59EF219FE906A0090B3B0 /* Team AppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5D59EDB19FE906A0090B3B0 /* Team App */ = {
+			isa = PBXGroup;
+			children = (
+				C5D59F0719FEA46C0090B3B0 /* Application */,
+				C5D59F2919FECBA10090B3B0 /* Configuration */,
+				C5D59EDC19FE906A0090B3B0 /* Supporting Files */,
+				C5D59F0D19FEA4DA0090B3B0 /* ViewControllers */,
+			);
+			path = "Team App";
+			sourceTree = "<group>";
+		};
+		C5D59EDC19FE906A0090B3B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5D59F0B19FEA4A40090B3B0 /* main.m */,
+				C5D59EDD19FE906A0090B3B0 /* TeamApp-Info.plist */,
+				C5D59F1419FEA65E0090B3B0 /* TeamApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5D59EF519FE906A0090B3B0 /* Team AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5D59EF819FE906A0090B3B0 /* Team_AppTests.m */,
+				C5D59EF619FE906A0090B3B0 /* Supporting Files */,
+			);
+			path = "Team AppTests";
+			sourceTree = "<group>";
+		};
+		C5D59EF619FE906A0090B3B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5D59EF719FE906A0090B3B0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5D59F0719FEA46C0090B3B0 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				C5D59F0819FEA46C0090B3B0 /* AppDelegate.h */,
+				C5D59F0919FEA46C0090B3B0 /* AppDelegate.m */,
+				C5D59F1319FEA5300090B3B0 /* AppDelegate+Private.h */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		C5D59F0D19FEA4DA0090B3B0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C5A67D111A07D7AE0063527C /* RootViewController.h */,
+				C5A67D121A07D7AE0063527C /* RootViewController.m */,
+				C5A67D141A07D7BB0063527C /* RootViewController.xib */,
+				C5A67D161A07D7CA0063527C /* RootViewController+Private.h */,
+				C5D59F1D19FEA8610090B3B0 /* RosterViewController.h */,
+				C5D59F1E19FEA8610090B3B0 /* RosterViewController.m */,
+				C5D59F1F19FEA8610090B3B0 /* RosterViewController.xib */,
+				C5D59F2219FEA8700090B3B0 /* ScheduleViewController.h */,
+				C5D59F2319FEA8700090B3B0 /* ScheduleViewController.m */,
+				C5D59F2419FEA8700090B3B0 /* ScheduleViewController.xib */,
+				C5D59F1819FEA8530090B3B0 /* StatsViewController.h */,
+				C5D59F1919FEA8530090B3B0 /* StatsViewController.m */,
+				C5D59F1A19FEA8530090B3B0 /* StatsViewController.xib */,
+				C5D59F2819FEBF420090B3B0 /* StatsViewController+Private.h */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C5D59F2919FECBA10090B3B0 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				C5D59F7319FECFB80090B3B0 /* Fonts */,
+				C5D59F2A19FECBA10090B3B0 /* Images */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		C5D59F2A19FECBA10090B3B0 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C5D59F4F19FECC920090B3B0 /* teamapp-roster_off.png */,
+				C5D59F5019FECC920090B3B0 /* teamapp-roster_off@2x.png */,
+				C5D59F5119FECC920090B3B0 /* teamapp-roster_off@3x.png */,
+				C5D59F5219FECC920090B3B0 /* teamapp-roster_on.png */,
+				C5D59F5319FECC920090B3B0 /* teamapp-roster_on@2x.png */,
+				C5D59F5419FECC920090B3B0 /* teamapp-roster_on@3x.png */,
+				C5D59F5519FECC920090B3B0 /* teamapp-schedule_off.png */,
+				C5D59F5619FECC920090B3B0 /* teamapp-schedule_off@2x.png */,
+				C5D59F5719FECC920090B3B0 /* teamapp-schedule_off@3x.png */,
+				C5D59F5819FECC920090B3B0 /* teamapp-schedule_on.png */,
+				C5D59F5919FECC920090B3B0 /* teamapp-schedule_on@2x.png */,
+				C5D59F5A19FECC920090B3B0 /* teamapp-schedule_on@3x.png */,
+				C5D59F5B19FECC920090B3B0 /* teamapp-stats_off.png */,
+				C5D59F5C19FECC920090B3B0 /* teamapp-stats_off@2x.png */,
+				C5D59F5D19FECC920090B3B0 /* teamapp-stats_off@3x.png */,
+				C5D59F5E19FECC920090B3B0 /* teamapp-stats_on.png */,
+				C5D59F5F19FECC920090B3B0 /* teamapp-stats_on@2x.png */,
+				C5D59F6019FECC920090B3B0 /* teamapp-stats_on@3x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		C5D59F7319FECFB80090B3B0 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C5D59F7619FED0620090B3B0 /* Museo_Slab_700.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5D59ED819FE906A0090B3B0 /* Team App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5D59EFC19FE906A0090B3B0 /* Build configuration list for PBXNativeTarget "Team App" */;
+			buildPhases = (
+				C5D59ED519FE906A0090B3B0 /* Sources */,
+				C5D59ED619FE906A0090B3B0 /* Frameworks */,
+				C5D59ED719FE906A0090B3B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Team App";
+			productName = "Team App";
+			productReference = C5D59ED919FE906A0090B3B0 /* Team App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5D59EF119FE906A0090B3B0 /* Team AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5D59EFF19FE906A0090B3B0 /* Build configuration list for PBXNativeTarget "Team AppTests" */;
+			buildPhases = (
+				C5D59EEE19FE906A0090B3B0 /* Sources */,
+				C5D59EEF19FE906A0090B3B0 /* Frameworks */,
+				C5D59EF019FE906A0090B3B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5D59EF419FE906A0090B3B0 /* PBXTargetDependency */,
+			);
+			name = "Team AppTests";
+			productName = "Team AppTests";
+			productReference = C5D59EF219FE906A0090B3B0 /* Team AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5D59ED119FE906A0090B3B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Livefront;
+				TargetAttributes = {
+					C5D59ED819FE906A0090B3B0 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					C5D59EF119FE906A0090B3B0 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = C5D59ED819FE906A0090B3B0;
+					};
+				};
+			};
+			buildConfigurationList = C5D59ED419FE906A0090B3B0 /* Build configuration list for PBXProject "Team App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5D59ED019FE906A0090B3B0;
+			productRefGroup = C5D59EDA19FE906A0090B3B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5D59ED819FE906A0090B3B0 /* Team App */,
+				C5D59EF119FE906A0090B3B0 /* Team AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5D59ED719FE906A0090B3B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5D59F7119FECC920090B3B0 /* teamapp-stats_on@2x.png in Resources */,
+				C5D59F1C19FEA8530090B3B0 /* StatsViewController.xib in Resources */,
+				C5D59F6919FECC920090B3B0 /* teamapp-schedule_off@3x.png in Resources */,
+				C5D59F6819FECC920090B3B0 /* teamapp-schedule_off@2x.png in Resources */,
+				C5D59F6C19FECC920090B3B0 /* teamapp-schedule_on@3x.png in Resources */,
+				C5D59F6719FECC920090B3B0 /* teamapp-schedule_off.png in Resources */,
+				C5D59F7819FED0620090B3B0 /* Museo_Slab_700.ttf in Resources */,
+				C5D59F6419FECC920090B3B0 /* teamapp-roster_on.png in Resources */,
+				C5D59F7019FECC920090B3B0 /* teamapp-stats_on.png in Resources */,
+				C5D59F6D19FECC920090B3B0 /* teamapp-stats_off.png in Resources */,
+				C5D59F6B19FECC920090B3B0 /* teamapp-schedule_on@2x.png in Resources */,
+				C5D59F2119FEA8610090B3B0 /* RosterViewController.xib in Resources */,
+				C5D59F2619FEA8700090B3B0 /* ScheduleViewController.xib in Resources */,
+				C5D59F6A19FECC920090B3B0 /* teamapp-schedule_on.png in Resources */,
+				C5D59F6E19FECC920090B3B0 /* teamapp-stats_off@2x.png in Resources */,
+				C5D59F7219FECC920090B3B0 /* teamapp-stats_on@3x.png in Resources */,
+				C5D59F6219FECC920090B3B0 /* teamapp-roster_off@2x.png in Resources */,
+				C5D59F6519FECC920090B3B0 /* teamapp-roster_on@2x.png in Resources */,
+				C5D59F6F19FECC920090B3B0 /* teamapp-stats_off@3x.png in Resources */,
+				C5A67D151A07D7BB0063527C /* RootViewController.xib in Resources */,
+				C5D59F6119FECC920090B3B0 /* teamapp-roster_off.png in Resources */,
+				C5D59F6619FECC920090B3B0 /* teamapp-roster_on@3x.png in Resources */,
+				C5D59F6319FECC920090B3B0 /* teamapp-roster_off@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5D59EF019FE906A0090B3B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5D59ED519FE906A0090B3B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5D59F1B19FEA8530090B3B0 /* StatsViewController.m in Sources */,
+				C5D59F2019FEA8610090B3B0 /* RosterViewController.m in Sources */,
+				C5A67D131A07D7AE0063527C /* RootViewController.m in Sources */,
+				C5D59F0C19FEA4A40090B3B0 /* main.m in Sources */,
+				C5D59F2519FEA8700090B3B0 /* ScheduleViewController.m in Sources */,
+				C5D59F0A19FEA46C0090B3B0 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5D59EEE19FE906A0090B3B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5D59EF919FE906A0090B3B0 /* Team_AppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5D59EF419FE906A0090B3B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5D59ED819FE906A0090B3B0 /* Team App */;
+			targetProxy = C5D59EF319FE906A0090B3B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C5D59EFA19FE906A0090B3B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "Team App/TeamApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C5D59EFB19FE906A0090B3B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREFIX_HEADER = "Team App/TeamApp-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5D59EFD19FE906A0090B3B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Team App/TeamApp-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C5D59EFE19FE906A0090B3B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Team App/TeamApp-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C5D59F0019FE906A0090B3B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Team AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Team App.app/Team App";
+			};
+			name = Debug;
+		};
+		C5D59F0119FE906A0090B3B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Team AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Team App.app/Team App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5D59ED419FE906A0090B3B0 /* Build configuration list for PBXProject "Team App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5D59EFA19FE906A0090B3B0 /* Debug */,
+				C5D59EFB19FE906A0090B3B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5D59EFC19FE906A0090B3B0 /* Build configuration list for PBXNativeTarget "Team App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5D59EFD19FE906A0090B3B0 /* Debug */,
+				C5D59EFE19FE906A0090B3B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5D59EFF19FE906A0090B3B0 /* Build configuration list for PBXNativeTarget "Team AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5D59F0019FE906A0090B3B0 /* Debug */,
+				C5D59F0119FE906A0090B3B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5D59ED119FE906A0090B3B0 /* Project object */;
+}
